@@ -3,4 +3,4 @@
 
 
 
-<a link="https://developer.chrome.com/docs/extensions">Chrome extensions official documentation<a/>
+<a url="https://developer.chrome.com/docs/extensions">Chrome extensions official documentation<a/>
