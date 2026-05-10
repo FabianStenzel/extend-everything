@@ -10,4 +10,9 @@
 
 
 ## Helpful Links
-<a href="https://developer.chrome.com/docs/extensions">Chrome extensions official documentation<a/>
+
+### Web Basics
+<a href="https://www.w3schools.com/css/css_intro.asp">CSS Documentation</a>
+
+### Extensions 
+<a href="https://developer.chrome.com/docs/extensions">Chrome extensions official documentation</a>
