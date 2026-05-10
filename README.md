@@ -13,7 +13,7 @@
 
 ### Web Basics
 <a href="https://www.w3schools.com/tags/ref_byfunc.asp"> List of HTML Elements</a> </br>
-<a href="https://www.w3schools.com/css/css_intro.asp">CSS Documentation</a>
+<a href="https://www.w3schools.com/css/css_intro.asp">CSS Documentation</a> </br>
 <a href="https://www.w3schools.com/js/default.asp">Javascript Documentation</a>
 
 ### Extensions 
