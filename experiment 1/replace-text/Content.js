@@ -1,5 +1,5 @@
 // Alle Textelemente auf der Website auswählen
-const elements = document.querySelectorAll("body *");
+let elements = document.querySelectorAll("body *");
 
 // Durch alle Elemente gehen
 elements.forEach((element) => {
