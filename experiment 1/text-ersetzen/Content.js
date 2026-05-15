@@ -1,24 +1,11 @@
-// Alle Textelemente auf der Website auswählen
-const elements = document.querySelectorAll("body *");
+// Eine Liste aller Elementen auf einer Website mit den HTML-Tags "p, h1, h2, h3, a, span, li"
+let elements = document.querySelectorAll("p, h1, h2, h3, a, span, li");
 
 // Durch alle Elemente gehen
 elements.forEach((element) => {
-  // Prüfen, ob das Element direkten Text enthält
-  if (element.childNodes.length > 0) {
-    element.childNodes.forEach((node) => {
-      // Nur Textknoten verändern
-      if (node.nodeType === Node.TEXT_NODE) {
-        // Leeren Text ignorieren
-        if (node.textContent.trim() !== "") {
-          // Text ersetzen
-          node.textContent = "das ist eine testtext";
-        }
-      }
-    });
-  }
-
-  // OPTIONAL:
-  // Textgröße verändern
-
+  // Die Schriftfarbe der Elemente verändern
   element.style.color = "blue";
+
+  // Den Text der Elemente austauschen
+  element.innerText = "HIER STEHT DEIN TEXT";
 });
