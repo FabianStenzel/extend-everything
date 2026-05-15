@@ -1,4 +1,4 @@
-// Alle Textelemente auf der Website auswählen
+// Eine Liste aller Elementen auf einer Website mit den HTML-Tags "p, h1, h2, h3, a, span, li"
 let elements = document.querySelectorAll("p, h1, h2, h3, a, span, li");
 
 // Durch alle Elemente gehen
