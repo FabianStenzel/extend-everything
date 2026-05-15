@@ -1,10 +1,10 @@
-// INSERT A URL OF AN IMAGE
+// Eine Variable in der ein Link zu einem Bild gespeichert wird
 let replaceURL = "https://www.bu.edu/files/2024/08/Hey-BU-Blog-Headers.jpg";
 
-//CREATES AN ARRAY OF ALL IMAGES ON A PAGE
+// Eine Liste aller Elementen auf einer Website mit dem HTML-Tag "img"
 let elements = document.querySelectorAll("img");
 
-//REPLACES THE URL OF THE IMAGES WITH YOUR SPECIFIC URL
+// Für jedes der Bildelemente aus der Liste wird der Quell-Link ersetzt
 elements.forEach((element) => {
    element.src = replaceURL;
 });
