@@ -6,7 +6,6 @@ let elements = document.getElementsByTagName("img");
 
 
 //REPLACE THE URL OF THE IMAGES WITH YOUR SPECIFIC URL
-
 elements.forEach((element) => {
    element.src = replaceURL;
 });
