@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Image Scatter",
+  "name": "Bilder sammeln",
   "version": "1.0",
   "permissions": ["storage"],
   "host_permissions": ["<all_urls>"],
