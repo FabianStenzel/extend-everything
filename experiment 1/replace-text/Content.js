@@ -1,5 +1,5 @@
 // Alle Textelemente auf der Website auswählen
-const elements = document.querySelectorAll("p, h1, h2, h3, a, span, li");
+let elements = document.querySelectorAll("p, h1, h2, h3, a, span, li");
 
 // Durch alle Elemente gehen
 elements.forEach((element) => {
